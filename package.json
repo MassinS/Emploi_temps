@@ -1,0 +1,24 @@
+{
+  "name": "projet_aie",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "backend": "npm i --prefix backend && npm run dev --prefix backend",
+    "frontend": "npm i --prefix frontend && npm run dev --prefix frontend",
+    "fix": "npm audit fix --prefix backend && npm audit fix --prefix frontend",
+    "createAdmin": "npm i --prefix backend && npm run createAdmin --prefix backend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios-cookiejar-support": "^5.0.1",
+    "backend": "^0.0.0",
+    "date-fns": "^3.6.0",
+    "js-cookie": "^3.0.5",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^6.22.3"
+  }
+}

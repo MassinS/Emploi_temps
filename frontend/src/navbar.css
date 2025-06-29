@@ -1,0 +1,34 @@
+.background{
+    background-color: #094BC1;
+}
+.texte{
+color:#193BEF
+}
+.child{
+    color: white;
+}
+.parent:hover .child{
+    color:#094BC1;
+    transition: all 1s ;
+}
+.parent:hover{
+    background-color: white;
+   transform: scale(1.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.deconnecter{
+    width: calc(90% - 12px);
+}
+.logo{
+    height: 48px;
+    width: 48px;
+    border-radius: 50px;
+    border:7px solid white
+}
+.items{
+width: 90%;
+}
+.wholepage{
+    z-index: 1;
+}

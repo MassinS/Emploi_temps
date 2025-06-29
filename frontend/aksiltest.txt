@@ -1,0 +1,19 @@
+useEffect(() => {
+        axios.get("http://localhost:3000/seance/",{
+            withCredentials: true
+          }).then(respo =>{
+            console.log(respo)
+            const seances = respo.data.Seances.filter((sc) => sc.code_module === code_module );
+          setSpecia(seances[0].code_specialite);
+          seances.forEach((seance,index) => {
+            const updatedOptions = [...typeS ] ;
+            if(seance.type===updatedOptions[index].key){
+                updatedOptions[index].checked = true;
+                setTypeS(updatedOptions);
+            }
+           
+        });
+         })
+         .catch(err => console.log(err));
+     
+    },[]);

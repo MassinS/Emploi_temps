@@ -1,0 +1,1172 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "agemp",
+    "collectionId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+    "dateExported": "2024-04-22T18:35:13.243Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "881a0942-36ea-45b1-986d-8de35a153051",
+            "name": "personne",
+            "containerId": "",
+            "created": "2024-03-30T12:46:08.813Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "2d1be867-4492-4dc2-8da9-bbb9cbb18152",
+            "name": "specialite",
+            "containerId": "",
+            "created": "2024-03-30T12:46:08.814Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "d2831a84-6791-44d9-8bca-7e31f891bdfc",
+            "name": "section",
+            "containerId": "",
+            "created": "2024-03-30T12:46:08.815Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "d0130eb5-3a3d-4770-bfe1-aaac138d192b",
+            "name": "groupe",
+            "containerId": "",
+            "created": "2024-03-30T12:46:08.816Z",
+            "sortNum": 40000
+        },
+        {
+            "_id": "cefe1c25-40b9-465c-b3f5-c858cbc4d27d",
+            "name": "occupation",
+            "containerId": "",
+            "created": "2024-03-30T12:46:08.817Z",
+            "sortNum": 50000
+        },
+        {
+            "_id": "393cb0ec-50f3-4404-a050-47cdf4eefa7f",
+            "name": "module",
+            "containerId": "",
+            "created": "2024-03-30T12:46:08.818Z",
+            "sortNum": 60000
+        },
+        {
+            "_id": "845ed803-03f5-40a5-9405-a5a42a8e8b17",
+            "name": "local",
+            "containerId": "",
+            "created": "2024-03-30T12:46:08.819Z",
+            "sortNum": 70000
+        },
+        {
+            "_id": "e0f60cfc-768c-4592-ac3b-e118ba483a56",
+            "name": "seance",
+            "containerId": "",
+            "created": "2024-03-30T12:49:01.766Z",
+            "sortNum": 80000
+        },
+        {
+            "_id": "41d20393-d1f7-4333-ae2d-5a515df6f09c",
+            "name": "creneau",
+            "containerId": "",
+            "created": "2024-03-30T13:14:21.034Z",
+            "sortNum": 90000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "08093ff9-58e9-41a0-9808-6de9e3bc2d53",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "881a0942-36ea-45b1-986d-8de35a153051",
+            "name": "getAll",
+            "url": "http://localhost:3000/personne",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-30T12:46:08.813Z",
+            "modified": "2024-04-05T16:41:53.484Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8ab54520-071f-4fdc-89f7-c59a2116ae98",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "881a0942-36ea-45b1-986d-8de35a153051",
+            "name": "getAllByType",
+            "url": "http://localhost:3000/personne/Enseignant",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2024-04-05T16:41:59.560Z",
+            "modified": "2024-04-06T22:36:48.233Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5fa8a033-0067-401a-9356-d06c456e7986",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "881a0942-36ea-45b1-986d-8de35a153051",
+            "name": "getOne",
+            "url": "http://localhost:3000/personne/24",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-30T12:46:08.814Z",
+            "modified": "2024-04-06T22:46:27.910Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "870fc892-5a3b-4a6a-ab6d-d7c5e7a88559",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "881a0942-36ea-45b1-986d-8de35a153051",
+            "name": "addOne",
+            "url": "http://localhost:3000/personne/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-30T12:46:08.815Z",
+            "modified": "2024-04-06T22:48:33.113Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nom",
+                        "value": "test_etd"
+                    },
+                    {
+                        "name": "prenom",
+                        "value": "test_etd"
+                    },
+                    {
+                        "name": "email",
+                        "value": "test_etd@test.dz"
+                    },
+                    {
+                        "name": "password",
+                        "value": "password"
+                    },
+                    {
+                        "name": "type",
+                        "value": "Etudiant"
+                    },
+                    {
+                        "name": "niveau",
+                        "value": "Master"
+                    },
+                    {
+                        "name": "anneeBac",
+                        "value": "2020"
+                    },
+                    {
+                        "name": "id_groupe",
+                        "value": "1"
+                    },
+                    {
+                        "name": "code_specialite",
+                        "value": "GL"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "41dd05b8-7cbd-4b23-918b-55d5087aac4b",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "881a0942-36ea-45b1-986d-8de35a153051",
+            "name": "updateOne",
+            "url": "http://localhost:3000/personne/26",
+            "method": "PUT",
+            "sortNum": 35000,
+            "created": "2024-03-30T12:46:08.817Z",
+            "modified": "2024-04-06T22:51:16.563Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nom",
+                        "value": "test_etd1"
+                    },
+                    {
+                        "name": "prenom",
+                        "value": "test_etd1"
+                    },
+                    {
+                        "name": "email",
+                        "value": "ltest_etd1@test_etd1.dz"
+                    },
+                    {
+                        "name": "password",
+                        "value": "password"
+                    },
+                    {
+                        "name": "type",
+                        "value": "Etudiant"
+                    },
+                    {
+                        "name": "anneeBac",
+                        "value": "2020"
+                    },
+                    {
+                        "name": "niveau",
+                        "value": "Master"
+                    },
+                    {
+                        "name": "id_groupe",
+                        "value": "2"
+                    },
+                    {
+                        "name": "code_specialite",
+                        "value": "GL"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "3221a5a9-715d-4c12-8c62-03112689871a",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "881a0942-36ea-45b1-986d-8de35a153051",
+            "name": "deleteOne",
+            "url": "http://localhost:3000/personne/26",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-03-30T12:46:08.816Z",
+            "modified": "2024-04-06T22:51:25.413Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1d899213-5a70-4a65-ba13-eadffe0da25b",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "2d1be867-4492-4dc2-8da9-bbb9cbb18152",
+            "name": "getAll",
+            "url": "http://localhost:3000/specialite",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-03-30T12:46:08.819Z",
+            "modified": "2024-03-30T12:46:08.819Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "220ea69a-f543-49a6-ab41-971735a44733",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "d2831a84-6791-44d9-8bca-7e31f891bdfc",
+            "name": "getAll",
+            "url": "http://localhost:3000/section",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-03-30T12:46:08.824Z",
+            "modified": "2024-03-30T12:46:08.824Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ef9e70db-3eb1-4562-8175-f1475ed8bbfe",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "d0130eb5-3a3d-4770-bfe1-aaac138d192b",
+            "name": "getAll",
+            "url": "http://localhost:3000/groupe",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-03-30T12:46:08.829Z",
+            "modified": "2024-03-30T12:46:08.829Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bf817a83-915a-40f0-9629-b882987f0da8",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "2d1be867-4492-4dc2-8da9-bbb9cbb18152",
+            "name": "getOne",
+            "url": "http://localhost:3000/specialite/GL",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-03-30T12:46:08.820Z",
+            "modified": "2024-03-30T12:46:08.820Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0e9b8b54-a7ae-429c-9e7b-7b342bc72afb",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "d2831a84-6791-44d9-8bca-7e31f891bdfc",
+            "name": "getOne",
+            "url": "http://localhost:3000/section/1",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-03-30T12:46:08.825Z",
+            "modified": "2024-04-06T22:53:43.494Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "32ac7c04-ba76-40c0-8fec-ffb01682a7b9",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "d0130eb5-3a3d-4770-bfe1-aaac138d192b",
+            "name": "getOne",
+            "url": "http://localhost:3000/groupe/1",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-03-30T12:46:08.830Z",
+            "modified": "2024-04-06T23:00:13.773Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "179a8b3e-d5bf-42be-b4f2-6ad705d54c91",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "2d1be867-4492-4dc2-8da9-bbb9cbb18152",
+            "name": "addOne",
+            "url": "http://localhost:3000/specialite",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-03-30T12:46:08.821Z",
+            "modified": "2024-03-30T12:46:08.821Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nom_specialite",
+                        "value": "Science et Technologie1"
+                    },
+                    {
+                        "name": "code_specialite",
+                        "value": "ST1"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "caab7e7e-16e1-44ab-812f-94f53d8b7312",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "d2831a84-6791-44d9-8bca-7e31f891bdfc",
+            "name": "addOne",
+            "url": "http://localhost:3000/section",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-03-30T12:46:08.826Z",
+            "modified": "2024-04-06T22:55:59.057Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "code_section",
+                        "value": "G"
+                    },
+                    {
+                        "name": "niveau",
+                        "value": "L3"
+                    },
+                    {
+                        "name": "code_specialite",
+                        "value": "MI"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "04edba66-6f76-4492-84fd-1bdc701de86c",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "d0130eb5-3a3d-4770-bfe1-aaac138d192b",
+            "name": "addOne",
+            "url": "http://localhost:3000/groupe",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-03-30T12:46:08.831Z",
+            "modified": "2024-04-06T23:00:40.983Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "id_section",
+                        "value": "1"
+                    },
+                    {
+                        "name": "code_groupe",
+                        "value": "G10"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ba9b9f0a-1a83-49c6-bb90-b7d1770c9ec3",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "2d1be867-4492-4dc2-8da9-bbb9cbb18152",
+            "name": "updateOne",
+            "url": "http://localhost:3000/specialite/ST1",
+            "method": "PUT",
+            "sortNum": 75000,
+            "created": "2024-03-30T12:46:08.823Z",
+            "modified": "2024-03-30T12:46:08.823Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nom_specialite",
+                        "value": "Science et Technologie2"
+                    },
+                    {
+                        "name": "code_specialite_new",
+                        "value": "ST2"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "bea87743-7b8f-409f-8706-e747b5ffd628",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "2d1be867-4492-4dc2-8da9-bbb9cbb18152",
+            "name": "deleteOne",
+            "url": "http://localhost:3000/specialite/ST2",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-03-30T12:46:08.822Z",
+            "modified": "2024-04-06T22:51:49.730Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9d9a4eb3-2546-4a34-b18f-eb86c52bca3b",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "d2831a84-6791-44d9-8bca-7e31f891bdfc",
+            "name": "updateOne",
+            "url": "http://localhost:3000/section/5",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-03-30T12:46:08.827Z",
+            "modified": "2024-04-06T22:55:44.103Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "code_section_new",
+                    "value": "L1STA1",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "code_section",
+                        "value": "B"
+                    },
+                    {
+                        "name": "niveau",
+                        "value": "L3"
+                    },
+                    {
+                        "name": "code_specialite",
+                        "value": "MI"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "c1436def-fb9f-4946-98f2-1d276df3b4cf",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "d0130eb5-3a3d-4770-bfe1-aaac138d192b",
+            "name": "updateOne",
+            "url": "http://localhost:3000/groupe/4",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-03-30T12:46:08.832Z",
+            "modified": "2024-03-30T12:46:08.832Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "code_section_new",
+                    "value": "L1STA1",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "code_section",
+                        "value": "M1GL"
+                    },
+                    {
+                        "name": "code_groupe",
+                        "value": "G1"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d47a30b2-521a-44ff-b5cc-e2400360a894",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "d2831a84-6791-44d9-8bca-7e31f891bdfc",
+            "name": "deleteOne",
+            "url": "http://localhost:3000/section/7",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2024-03-30T12:46:08.828Z",
+            "modified": "2024-04-06T22:56:09.048Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6958d2d5-e7a6-4259-824c-3fa11b63b9bd",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "d0130eb5-3a3d-4770-bfe1-aaac138d192b",
+            "name": "deleteOne",
+            "url": "http://localhost:3000/groupe/3",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2024-03-30T12:46:08.833Z",
+            "modified": "2024-04-06T23:01:58.751Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "043a4abb-5ad3-4abe-a8b5-6b228113526d",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "cefe1c25-40b9-465c-b3f5-c858cbc4d27d",
+            "name": "getOccupationId",
+            "url": "http://localhost:3000/occupation/1",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-30T12:46:08.834Z",
+            "modified": "2024-03-30T12:46:08.834Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "05e27741-6ba3-4a11-aee2-ad3857ab0e46",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "393cb0ec-50f3-4404-a050-47cdf4eefa7f",
+            "name": "getAll",
+            "url": "http://localhost:3000/module",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-30T12:46:08.840Z",
+            "modified": "2024-03-30T12:46:08.840Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2f5e7489-0196-4e50-918d-24d492cced3f",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "845ed803-03f5-40a5-9405-a5a42a8e8b17",
+            "name": "getAll",
+            "url": "http://localhost:3000/local",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-30T12:46:08.845Z",
+            "modified": "2024-03-30T12:46:08.845Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "090ce867-14bc-4a9c-85c6-a62338fce4d7",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "e0f60cfc-768c-4592-ac3b-e118ba483a56",
+            "name": "getAll",
+            "url": "http://localhost:3000/seance",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-30T12:49:01.766Z",
+            "modified": "2024-03-30T12:49:28.925Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "44e86f7b-e6e1-4401-b8fb-672b7413a930",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "41d20393-d1f7-4333-ae2d-5a515df6f09c",
+            "name": "getAll",
+            "url": "http://localhost:3000/creneau",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-30T13:14:21.035Z",
+            "modified": "2024-03-30T13:14:51.246Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a973d858-d96f-4914-a8e4-227927b7ab48",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "e0f60cfc-768c-4592-ac3b-e118ba483a56",
+            "name": "getOneById",
+            "url": "http://localhost:3000/seance/3",
+            "method": "GET",
+            "sortNum": 101093.8,
+            "created": "2024-03-30T12:49:01.768Z",
+            "modified": "2024-03-30T12:50:33.081Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9983bca0-4204-4417-aa0f-c3b23283a4e6",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "41d20393-d1f7-4333-ae2d-5a515df6f09c",
+            "name": "getOneById",
+            "url": "http://localhost:3000/creneau/1",
+            "method": "GET",
+            "sortNum": 101093.8,
+            "created": "2024-03-30T13:14:21.036Z",
+            "modified": "2024-03-30T13:18:09.002Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7ca7ef52-1e6a-4455-8209-828bf90393b8",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "845ed803-03f5-40a5-9405-a5a42a8e8b17",
+            "name": "getAllByType",
+            "url": "http://localhost:3000/local/types/SalleTP",
+            "method": "GET",
+            "sortNum": 102187.5,
+            "created": "2024-03-30T12:46:08.850Z",
+            "modified": "2024-03-30T12:46:08.850Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2c0380d3-898d-4a27-8898-a60b9a1a545b",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "e0f60cfc-768c-4592-ac3b-e118ba483a56",
+            "name": "getAllByType",
+            "url": "http://localhost:3000/seance/types/TD",
+            "method": "GET",
+            "sortNum": 102187.5,
+            "created": "2024-03-30T12:49:01.767Z",
+            "modified": "2024-04-06T23:04:23.119Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a7b218da-cc43-4405-896d-489c2e39b067",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "41d20393-d1f7-4333-ae2d-5a515df6f09c",
+            "name": "getAllByGroupe",
+            "url": "http://localhost:3000/creneau/groupes/1",
+            "method": "GET",
+            "sortNum": 102187.5,
+            "created": "2024-03-30T13:14:21.037Z",
+            "modified": "2024-04-06T23:46:08.518Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b8920de4-92ce-41fd-8ffa-48e19e883477",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "393cb0ec-50f3-4404-a050-47cdf4eefa7f",
+            "name": "getOne",
+            "url": "http://localhost:3000/module/POO",
+            "method": "GET",
+            "sortNum": 104375,
+            "created": "2024-03-30T12:46:08.844Z",
+            "modified": "2024-04-06T23:02:34.423Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3bde47b2-c497-49f2-8c84-6a8515109203",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "845ed803-03f5-40a5-9405-a5a42a8e8b17",
+            "name": "getOne",
+            "url": "http://localhost:3000/local/b5s120",
+            "method": "GET",
+            "sortNum": 104375,
+            "created": "2024-03-30T12:46:08.846Z",
+            "modified": "2024-03-30T12:46:08.846Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "28b372c1-457c-4436-a9fd-f90fc90c2af5",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "cefe1c25-40b9-465c-b3f5-c858cbc4d27d",
+            "name": "getOccupationDay",
+            "url": "http://localhost:3000/occupation/jours/Lundi",
+            "method": "GET",
+            "sortNum": 105000,
+            "created": "2024-03-30T12:46:08.836Z",
+            "modified": "2024-03-30T12:46:08.836Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "10220d68-65ab-42bb-86a1-372fe1f97b08",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "cefe1c25-40b9-465c-b3f5-c858cbc4d27d",
+            "name": "getAll",
+            "url": "http://localhost:3000/occupation",
+            "method": "GET",
+            "sortNum": 107500,
+            "created": "2024-03-30T12:46:08.839Z",
+            "modified": "2024-03-30T12:46:08.839Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "934a55b3-25a3-4beb-bccb-abe10c69ad6b",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "cefe1c25-40b9-465c-b3f5-c858cbc4d27d",
+            "name": "insertOneOccupation",
+            "url": "http://localhost:3000/occupation",
+            "method": "POST",
+            "sortNum": 108750,
+            "created": "2024-03-30T12:46:08.837Z",
+            "modified": "2024-03-30T14:11:18.727Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "jour",
+                        "value": "Dimanche"
+                    },
+                    {
+                        "name": "heur_debut",
+                        "value": "10:30"
+                    },
+                    {
+                        "name": "heur_fin",
+                        "value": "11:30"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "43c6d04c-6014-4736-8ff9-c0b92de45fe9",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "393cb0ec-50f3-4404-a050-47cdf4eefa7f",
+            "name": "insertOneModule",
+            "url": "http://localhost:3000/module",
+            "method": "POST",
+            "sortNum": 108750,
+            "created": "2024-03-30T12:46:08.841Z",
+            "modified": "2024-03-30T12:46:08.841Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "code_module",
+                        "value": "GL0"
+                    },
+                    {
+                        "name": "nom_module",
+                        "value": "Genie Logiciel0"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d199dc31-ebe8-451c-98a1-56f44615149e",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "845ed803-03f5-40a5-9405-a5a42a8e8b17",
+            "name": "insertOneLocal",
+            "url": "http://localhost:3000/local",
+            "method": "POST",
+            "sortNum": 108750,
+            "created": "2024-03-30T12:46:08.847Z",
+            "modified": "2024-03-30T12:48:05.837Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "code_local",
+                        "value": "b8s80"
+                    },
+                    {
+                        "name": "capacite",
+                        "value": "30"
+                    },
+                    {
+                        "name": "type",
+                        "value": "SalleTD"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "4266c2f5-9ffd-417d-80fc-0fce3b1ec6bc",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "e0f60cfc-768c-4592-ac3b-e118ba483a56",
+            "name": "insertOneSeance",
+            "url": "http://localhost:3000/seance",
+            "method": "POST",
+            "sortNum": 108750,
+            "created": "2024-03-30T12:49:01.769Z",
+            "modified": "2024-04-22T18:33:55.672Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "type",
+                        "value": "TP"
+                    },
+                    {
+                        "name": "code_module",
+                        "value": "BDD"
+                    },
+                    {
+                        "name": "code_specialite",
+                        "value": "GL"
+                    },
+                    {
+                        "name": "niveau",
+                        "value": "M1"
+                    },
+                    {
+                        "name": "semestre",
+                        "value": "S1"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "272e150a-54e9-45b1-b77d-95e950e4f557",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "41d20393-d1f7-4333-ae2d-5a515df6f09c",
+            "name": "insertOne",
+            "url": "http://localhost:3000/creneau",
+            "method": "POST",
+            "sortNum": 108750,
+            "created": "2024-03-30T13:14:21.038Z",
+            "modified": "2024-03-30T14:05:23.920Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "debut",
+                        "value": "08:00"
+                    },
+                    {
+                        "name": "fin",
+                        "value": "09:30"
+                    },
+                    {
+                        "name": "jour",
+                        "value": "Dimanche"
+                    },
+                    {
+                        "name": "id_Emp",
+                        "value": "1"
+                    },
+                    {
+                        "name": "id_seance",
+                        "value": "3"
+                    },
+                    {
+                        "name": "code_local",
+                        "value": "b8s8"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "e6cd1488-50cf-4add-ad89-44b02c8c04d0",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "cefe1c25-40b9-465c-b3f5-c858cbc4d27d",
+            "name": "updateOccupationById",
+            "url": "http://localhost:3000/occupation/5",
+            "method": "PUT",
+            "sortNum": 115000,
+            "created": "2024-03-30T12:46:08.838Z",
+            "modified": "2024-03-30T12:46:08.838Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "jour",
+                        "value": "Mardi"
+                    },
+                    {
+                        "name": "heur_debut",
+                        "value": "10:30"
+                    },
+                    {
+                        "name": "heur_fin",
+                        "value": "15:30"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "61f4f480-a725-4e62-b868-adf0dbb4914d",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "393cb0ec-50f3-4404-a050-47cdf4eefa7f",
+            "name": "putOneModule",
+            "url": "http://localhost:3000/module/GL2",
+            "method": "PUT",
+            "sortNum": 115000,
+            "created": "2024-03-30T12:46:08.842Z",
+            "modified": "2024-03-30T12:46:08.842Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nom_module",
+                        "value": "Genie Logiciel3"
+                    },
+                    {
+                        "name": "code_module_new",
+                        "value": "GL2",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ac4dd5af-3ed8-4acb-89bc-b4514d3d5aaf",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "845ed803-03f5-40a5-9405-a5a42a8e8b17",
+            "name": "putOneLocal",
+            "url": "http://localhost:3000/local/b8s80",
+            "method": "PUT",
+            "sortNum": 115000,
+            "created": "2024-03-30T12:46:08.848Z",
+            "modified": "2024-03-30T12:48:45.723Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "code_local_new",
+                        "value": "b8s8"
+                    },
+                    {
+                        "name": "capacite",
+                        "value": "40"
+                    },
+                    {
+                        "name": "type",
+                        "value": "SalleTD"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "0fccd963-2793-43fa-a13f-1fff3c28d2d5",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "e0f60cfc-768c-4592-ac3b-e118ba483a56",
+            "name": "putOneSeance",
+            "url": "http://localhost:3000/seance/10",
+            "method": "PUT",
+            "sortNum": 115000,
+            "created": "2024-03-30T12:49:01.770Z",
+            "modified": "2024-04-22T18:34:43.166Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "type",
+                        "value": "Cours"
+                    },
+                    {
+                        "name": "code_module",
+                        "value": "BDD"
+                    },
+                    {
+                        "name": "code_specialite",
+                        "value": "GL"
+                    },
+                    {
+                        "name": "niveau",
+                        "value": "M1"
+                    },
+                    {
+                        "name": "semestre",
+                        "value": "S2"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "5123037a-2281-498c-8a3b-1417244329f4",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "41d20393-d1f7-4333-ae2d-5a515df6f09c",
+            "name": "putOne",
+            "url": "http://localhost:3000/creneau/4",
+            "method": "PUT",
+            "sortNum": 115000,
+            "created": "2024-03-30T13:14:21.039Z",
+            "modified": "2024-03-30T14:08:26.154Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "debut",
+                        "value": "10:00"
+                    },
+                    {
+                        "name": "fin",
+                        "value": "11:30"
+                    },
+                    {
+                        "name": "jour",
+                        "value": "Lundi"
+                    },
+                    {
+                        "name": "id_Emp",
+                        "value": "1"
+                    },
+                    {
+                        "name": "id_seance",
+                        "value": "3"
+                    },
+                    {
+                        "name": "code_local",
+                        "value": "Amphi16"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "69f34062-4600-4619-be75-c7772206bebe",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "cefe1c25-40b9-465c-b3f5-c858cbc4d27d",
+            "name": "deleteOccupationById",
+            "url": "http://localhost:3000/occupation/5",
+            "method": "DELETE",
+            "sortNum": 125000,
+            "created": "2024-03-30T12:46:08.835Z",
+            "modified": "2024-03-30T12:46:08.835Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f11b4535-ef86-4cd5-8c98-cd66ebc2ef0e",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "393cb0ec-50f3-4404-a050-47cdf4eefa7f",
+            "name": "deleteOneModule",
+            "url": "http://localhost:3000/module/GL2",
+            "method": "DELETE",
+            "sortNum": 125000,
+            "created": "2024-03-30T12:46:08.843Z",
+            "modified": "2024-03-30T12:46:08.843Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "66c92a17-b828-4780-af07-1f35141fce9e",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "845ed803-03f5-40a5-9405-a5a42a8e8b17",
+            "name": "deleteOneLocal",
+            "url": "http://localhost:3000/local/b8s9",
+            "method": "DELETE",
+            "sortNum": 125000,
+            "created": "2024-03-30T12:46:08.849Z",
+            "modified": "2024-03-30T12:48:27.480Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "20b68dd2-f35c-494c-a1d1-9688da35a8d9",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "e0f60cfc-768c-4592-ac3b-e118ba483a56",
+            "name": "deleteOneSeance",
+            "url": "http://localhost:3000/seance/10",
+            "method": "DELETE",
+            "sortNum": 125000,
+            "created": "2024-03-30T12:49:01.771Z",
+            "modified": "2024-04-22T18:34:52.193Z",
+            "headers": []
+        },
+        {
+            "_id": "42e5fbf2-72e0-4bdb-96d4-8ed60b2bbcdd",
+            "colId": "dc97e067-b09d-48cd-b065-3f901deb8c9b",
+            "containerId": "41d20393-d1f7-4333-ae2d-5a515df6f09c",
+            "name": "deleteOne",
+            "url": "http://localhost:3000/creneau/5",
+            "method": "DELETE",
+            "sortNum": 125000,
+            "created": "2024-03-30T13:14:21.040Z",
+            "modified": "2024-03-30T14:08:55.535Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "ref": "WmyOZhuvDYlCFXSxOr-KFh649S0G4Zokv8sBeF5cb-0bzKrEZj5vtoR7pfYhW0NJAHnsNtoN3bShncVBrJaOSg"
+}

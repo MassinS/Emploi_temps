@@ -1,0 +1,544 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "agemp_2",
+    "collectionId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+    "dateExported": "2024-05-14T15:33:32.923Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "6dbcace6-d888-4fe6-9ce2-5ff4b3bdcd73",
+            "name": "emploistemps",
+            "containerId": "",
+            "created": "2024-03-30T14:16:44.453Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "87eca01e-8b12-46d3-9d11-076f8642f157",
+            "name": "ensEtoccup",
+            "containerId": "",
+            "created": "2024-03-30T14:36:05.016Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "fb1bbc00-ee53-4a89-9d1a-3f62b1ba1edd",
+            "name": "moduleEns",
+            "containerId": "",
+            "created": "2024-03-30T20:44:33.895Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "563d2d0f-8914-4a87-a9f8-9a501087fdc3",
+            "name": "ensCreneaux",
+            "containerId": "",
+            "created": "2024-03-30T21:11:15.201Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "84302965-5faf-44a1-8f51-58004fdf206e",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3000/login/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-06T23:20:44.362Z",
+            "modified": "2024-04-06T23:20:44.362Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "test@se.univ-bejaia.dz"
+                    },
+                    {
+                        "name": "password",
+                        "value": "password"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "fddb76eb-c34c-49dd-9d45-9f2b7dae813a",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "6dbcace6-d888-4fe6-9ce2-5ff4b3bdcd73",
+            "name": "getAll",
+            "url": "http://localhost:3000/emploistemps",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-30T14:16:44.454Z",
+            "modified": "2024-03-30T14:17:09.887Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a1d3af61-b219-4cab-b97e-b1e6b6683807",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "87eca01e-8b12-46d3-9d11-076f8642f157",
+            "name": "getAll",
+            "url": "http://localhost:3000/ensEtoccup",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-30T14:36:05.016Z",
+            "modified": "2024-03-30T14:49:11.218Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6bfba591-0b96-4351-9233-8323005191ae",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "fb1bbc00-ee53-4a89-9d1a-3f62b1ba1edd",
+            "name": "getAll",
+            "url": "http://localhost:3000/moduleEns",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-30T20:44:33.895Z",
+            "modified": "2024-03-30T20:45:59.409Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a891729e-a020-4e58-88cf-177522b49585",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "563d2d0f-8914-4a87-a9f8-9a501087fdc3",
+            "name": "getAll",
+            "url": "http://localhost:3000/ensCreneaux",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-30T21:11:15.201Z",
+            "modified": "2024-03-30T21:11:49.439Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "53c65254-8e3c-4fe8-9ac3-6f13f4a90a7b",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "6dbcace6-d888-4fe6-9ce2-5ff4b3bdcd73",
+            "name": "getOneById",
+            "url": "http://localhost:3000/emploistemps/1",
+            "method": "GET",
+            "sortNum": 101093.8,
+            "created": "2024-03-30T14:16:44.454Z",
+            "modified": "2024-03-30T16:08:22.704Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8ada3d5b-f2e3-430f-9eef-e1100f198a72",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "87eca01e-8b12-46d3-9d11-076f8642f157",
+            "name": "getAllById",
+            "url": "http://localhost:3000/ensEtoccup/7",
+            "method": "GET",
+            "sortNum": 101093.8,
+            "created": "2024-03-30T14:36:05.017Z",
+            "modified": "2024-03-30T14:38:42.185Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d8927333-cf2e-45f6-93c2-500d1ec19bde",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "fb1bbc00-ee53-4a89-9d1a-3f62b1ba1edd",
+            "name": "getAllById",
+            "url": "http://localhost:3000/moduleEns/7",
+            "method": "GET",
+            "sortNum": 101093.8,
+            "created": "2024-03-30T20:44:33.896Z",
+            "modified": "2024-03-30T20:49:35.967Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b2c86bfd-654b-4e1d-9afa-44dfb296ea80",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "563d2d0f-8914-4a87-a9f8-9a501087fdc3",
+            "name": "getAllById",
+            "url": "http://localhost:3000/ensCreneaux/7",
+            "method": "GET",
+            "sortNum": 101093.8,
+            "created": "2024-03-30T21:11:15.202Z",
+            "modified": "2024-03-30T21:12:23.597Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3e52848b-1f5d-4eb7-8105-19f5eb545f0f",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "6dbcace6-d888-4fe6-9ce2-5ff4b3bdcd73",
+            "name": "getOneByGroupe",
+            "url": "http://localhost:3000/emploistemps/groupes/1",
+            "method": "GET",
+            "sortNum": 102187.5,
+            "created": "2024-03-30T14:16:44.454Z",
+            "modified": "2024-03-30T16:08:32.251Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "610ce6e0-9f73-4fb8-817e-8b1e5867a9c3",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "6dbcace6-d888-4fe6-9ce2-5ff4b3bdcd73",
+            "name": "insertOne",
+            "url": "http://localhost:3000/emploistemps",
+            "method": "POST",
+            "sortNum": 108750,
+            "created": "2024-03-30T14:16:44.454Z",
+            "modified": "2024-04-22T18:29:12.087Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "id_groupe",
+                        "value": "2"
+                    },
+                    {
+                        "name": "niveau",
+                        "value": "M1"
+                    },
+                    {
+                        "name": "semestre",
+                        "value": "S1"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "fedbd8c3-9b42-4f7b-a3c9-5987603cd175",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "87eca01e-8b12-46d3-9d11-076f8642f157",
+            "name": "insertOne",
+            "url": "http://localhost:3000/ensEtoccup",
+            "method": "POST",
+            "sortNum": 108750,
+            "created": "2024-03-30T14:36:05.019Z",
+            "modified": "2024-03-30T14:54:06.941Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "matricule",
+                        "value": "7"
+                    },
+                    {
+                        "name": "id_occup",
+                        "value": "6"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "31924224-415c-417a-a8cb-dc5a0ce70b8b",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "fb1bbc00-ee53-4a89-9d1a-3f62b1ba1edd",
+            "name": "insertOne",
+            "url": "http://localhost:3000/moduleEns",
+            "method": "POST",
+            "sortNum": 108750,
+            "created": "2024-03-30T20:44:33.898Z",
+            "modified": "2024-03-30T20:57:53.485Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "matricule",
+                        "value": "8"
+                    },
+                    {
+                        "name": "code_module",
+                        "value": "BDD"
+                    },
+                    {
+                        "name": "priorite",
+                        "value": "1"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "8d09bbae-07c9-4be9-8764-f5150799b13d",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "563d2d0f-8914-4a87-a9f8-9a501087fdc3",
+            "name": "insertOne",
+            "url": "http://localhost:3000/ensCreneaux",
+            "method": "POST",
+            "sortNum": 108750,
+            "created": "2024-03-30T21:11:15.203Z",
+            "modified": "2024-03-30T21:20:42.880Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "matricule",
+                        "value": "8"
+                    },
+                    {
+                        "name": "id_creneau",
+                        "value": "3"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "23a12738-b811-4271-8910-e81d2f875cfa",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "6dbcace6-d888-4fe6-9ce2-5ff4b3bdcd73",
+            "name": "putOne",
+            "url": "http://localhost:3000/emploistemps/2",
+            "method": "PUT",
+            "sortNum": 115000,
+            "created": "2024-03-30T14:16:44.454Z",
+            "modified": "2024-04-22T18:29:36.205Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "id_groupe",
+                        "value": "2"
+                    },
+                    {
+                        "name": "niveau",
+                        "value": "M1"
+                    },
+                    {
+                        "name": "semestre",
+                        "value": "S2"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "b3872d99-553e-4b0d-a1d4-abfb78a0b957",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "87eca01e-8b12-46d3-9d11-076f8642f157",
+            "name": "putOne",
+            "url": "http://localhost:3000/ensEtoccup/8/occupations/6",
+            "method": "PUT",
+            "sortNum": 115000,
+            "created": "2024-03-30T14:36:05.020Z",
+            "modified": "2024-03-30T15:09:06.721Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "matricule_new",
+                        "value": "8",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "id_occup_new",
+                        "value": "1"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "bb59ee15-aa9f-4261-854f-bfa7586d2d2f",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "fb1bbc00-ee53-4a89-9d1a-3f62b1ba1edd",
+            "name": "putOne",
+            "url": "http://localhost:3000/moduleEns/8/modules/BDD",
+            "method": "PUT",
+            "sortNum": 115000,
+            "created": "2024-03-30T20:44:33.899Z",
+            "modified": "2024-03-30T21:03:05.612Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "matricule_new",
+                        "value": "8",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "code_module",
+                        "value": "BDDA",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "priorite",
+                        "value": "2"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "fcf32cc3-a153-46a7-ba1e-352b6fd7decc",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "563d2d0f-8914-4a87-a9f8-9a501087fdc3",
+            "name": "putOne",
+            "url": "http://localhost:3000/EnsCreneaux/8/creneaux/3",
+            "method": "PUT",
+            "sortNum": 115000,
+            "created": "2024-03-30T21:11:15.204Z",
+            "modified": "2024-03-30T21:29:37.488Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "id_creneau_new",
+                        "value": "4"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "236f3455-ac8f-4180-8c49-b79849821d73",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "6dbcace6-d888-4fe6-9ce2-5ff4b3bdcd73",
+            "name": "deleteOne",
+            "url": "http://localhost:3000/emploistemps/4",
+            "method": "DELETE",
+            "sortNum": 125000,
+            "created": "2024-03-30T14:16:44.454Z",
+            "modified": "2024-04-22T18:29:56.568Z",
+            "headers": []
+        },
+        {
+            "_id": "f11069bd-95ef-45f0-9b4a-6f45b492a44e",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "87eca01e-8b12-46d3-9d11-076f8642f157",
+            "name": "deleteOne",
+            "url": "http://localhost:3000/ensEtoccup/8/occupations/1",
+            "method": "DELETE",
+            "sortNum": 125000,
+            "created": "2024-03-30T14:36:05.021Z",
+            "modified": "2024-03-30T15:09:28.753Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e3e3cfe6-85d6-4783-9782-c6b4a44eb16e",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "fb1bbc00-ee53-4a89-9d1a-3f62b1ba1edd",
+            "name": "deleteOne",
+            "url": "http://localhost:3000/moduleEns/8/modules/BDD",
+            "method": "DELETE",
+            "sortNum": 125000,
+            "created": "2024-03-30T20:44:33.900Z",
+            "modified": "2024-03-30T21:04:49.281Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6b1ee7d0-0c38-4fe4-ac03-7c274506259d",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "563d2d0f-8914-4a87-a9f8-9a501087fdc3",
+            "name": "deleteOne",
+            "url": "http://localhost:3000/EnsCreneaux/8/creneaux/4",
+            "method": "DELETE",
+            "sortNum": 125000,
+            "created": "2024-03-30T21:11:15.205Z",
+            "modified": "2024-03-30T21:29:52.671Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7f5333ac-d2be-40b4-9c13-7cfd122e87c4",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "",
+            "name": "generate",
+            "url": "http://localhost:3000/generate/1",
+            "method": "GET",
+            "sortNum": 135000,
+            "created": "2024-04-17T12:38:45.776Z",
+            "modified": "2024-05-14T15:33:14.749Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "semestre",
+                        "value": "S2",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "shuffle",
+                        "value": "0"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "92a31d3e-95a3-45a0-91ca-2b6de22b549d",
+            "colId": "c343bfa7-a6a1-494f-ae65-98263eb9ab1c",
+            "containerId": "",
+            "name": "save",
+            "url": "http://localhost:3000/generate/save",
+            "method": "POST",
+            "sortNum": 145000,
+            "created": "2024-05-12T19:06:48.348Z",
+            "modified": "2024-05-14T15:32:59.334Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "semestre",
+                        "value": "S2"
+                    },
+                    {
+                        "name": "annee",
+                        "value": "2024"
+                    },
+                    {
+                        "name": "override",
+                        "value": "true"
+                    },
+                    {
+                        "name": "data",
+                        "value": "{ \"G5\": [ { \"debut\": \"09:40\", \"fin\": \"11:10\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 16, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"MC\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"MC\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"13\", \"nom\": \"Martinez\", \"prenom\": \"Antonio\", \"role\": \"maitre A\", \"code_module\": \"MC\", \"nom_module\": \"MC\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 1, \"code_groupe\": \"G5\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 6 } }, { \"debut\": \"11:20\", \"fin\": \"12:50\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 9, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"PS\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"PS\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"6\", \"nom\": \"Dubois\", \"prenom\": \"Marie\", \"role\": \"Maitre C\", \"code_module\": \"PS\", \"nom_module\": \"PS\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 1, \"code_groupe\": \"G5\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 6 } }, { \"debut\": \"13:00\", \"fin\": \"14:30\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 12, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"AIE\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"AIE\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s120\", \"capacite\": 40, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"13\", \"nom\": \"Martinez\", \"prenom\": \"Antonio\", \"role\": \"maitre A\", \"code_module\": \"AIE\", \"nom_module\": \"AIE\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 1, \"code_groupe\": \"G5\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 6 } }, { \"debut\": \"16:20\", \"fin\": \"17:50\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 13, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"AIE\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"AIE\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"17\", \"nom\": \"Roy\", \"prenom\": \"Sophie\", \"role\": \"maitre Z\", \"code_module\": \"AIE\", \"nom_module\": \"AIE\", \"priorite\": 2 }, \"groupe\": { \"id_groupe\": 1, \"code_groupe\": \"G5\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 6 } }, { \"debut\": \"09:40\", \"fin\": \"11:10\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 19, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Req-Con\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Req-Con\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"22\", \"nom\": \"Smith\", \"prenom\": \"Jane\", \"role\": \"vacataire\", \"code_module\": \"Req-Con\", \"nom_module\": \"Req-Con\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 1, \"code_groupe\": \"G5\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 6 } }, { \"debut\": \"11:20\", \"fin\": \"12:50\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 14, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"TOP\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"TOP\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"19\", \"nom\": \"Fernandez\", \"prenom\": \"Laura\", \"role\": \"maitre F\", \"code_module\": \"TOP\", \"nom_module\": \"TOP\", \"priorite\": 2 }, \"groupe\": { \"id_groupe\": 1, \"code_groupe\": \"G5\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 6 } }, { \"debut\": \"13:00\", \"fin\": \"14:30\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 22, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Anglais\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Anglais\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s120\", \"capacite\": 40, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"19\", \"nom\": \"Fernandez\", \"prenom\": \"Laura\", \"role\": \"maitre F\", \"code_module\": \"Anglais\", \"nom_module\": \"Anglais\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 1, \"code_groupe\": \"G5\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 6 } }, { \"debut\": \"16:20\", \"fin\": \"17:50\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 17, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"MC\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"MC\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s120\", \"capacite\": 40, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"8\", \"nom\": \"Chen\", \"prenom\": \"Ling\", \"role\": \"Maitre D\", \"code_module\": \"MC\", \"nom_module\": \"MC\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 1, \"code_groupe\": \"G5\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 6 } }, { \"debut\": \"09:40\", \"fin\": \"11:10\", \"jour\": \"Mardi\", \"seance\": { \"id_seance\": 18, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"MC\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"MC\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"13\", \"nom\": \"Martinez\", \"prenom\": \"Antonio\", \"role\": \"maitre A\", \"code_module\": \"MC\", \"nom_module\": \"MC\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 1, \"code_groupe\": \"G5\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 6 } }, { \"debut\": \"11:20\", \"fin\": \"12:50\", \"jour\": \"Mardi\", \"seance\": { \"id_seance\": 10, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"PS\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"PS\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s112\", \"capacite\": 60, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"6\", \"nom\": \"Dubois\", \"prenom\": \"Marie\", \"role\": \"Maitre C\", \"code_module\": \"PS\", \"nom_module\": \"PS\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 1, \"code_groupe\": \"G5\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 6 } }, { \"debut\": \"14:40\", \"fin\": \"16:10\", \"jour\": \"Mardi\", \"seance\": { \"id_seance\": 20, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Req-Con\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Req-Con\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s120\", \"capacite\": 40, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"22\", \"nom\": \"Smith\", \"prenom\": \"Jane\", \"role\": \"vacataire\", \"code_module\": \"Req-Con\", \"nom_module\": \"Req-Con\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 1, \"code_groupe\": \"G5\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 6 } }, { \"debut\": \"16:20\", \"fin\": \"17:50\", \"jour\": \"Mardi\", \"seance\": { \"id_seance\": 11, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"PS\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"PS\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"6\", \"nom\": \"Dubois\", \"prenom\": \"Marie\", \"role\": \"Maitre C\", \"code_module\": \"PS\", \"nom_module\": \"PS\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 1, \"code_groupe\": \"G5\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 6 } }, { \"debut\": \"09:40\", \"fin\": \"11:10\", \"jour\": \"Mercredi\", \"seance\": { \"id_seance\": 15, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"TOP\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"TOP\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s120\", \"capacite\": 40, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"19\", \"nom\": \"Fernandez\", \"prenom\": \"Laura\", \"role\": \"maitre F\", \"code_module\": \"TOP\", \"nom_module\": \"TOP\", \"priorite\": 2 }, \"groupe\": { \"id_groupe\": 1, \"code_groupe\": \"G5\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 6 } }, { \"debut\": \"11:20\", \"fin\": \"12:50\", \"jour\": \"Mercredi\", \"seance\": { \"id_seance\": 21, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Req-Con\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Req-Con\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"22\", \"nom\": \"Smith\", \"prenom\": \"Jane\", \"role\": \"vacataire\", \"code_module\": \"Req-Con\", \"nom_module\": \"Req-Con\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 1, \"code_groupe\": \"G5\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 6 } } ], \"G4\": [ { \"debut\": \"09:40\", \"fin\": \"11:10\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 16, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"MC\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"MC\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"13\", \"nom\": \"Martinez\", \"prenom\": \"Antonio\", \"role\": \"maitre A\", \"code_module\": \"MC\", \"nom_module\": \"MC\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 2, \"code_groupe\": \"G4\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 3 } }, { \"debut\": \"11:20\", \"fin\": \"12:50\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 9, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"PS\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"PS\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"6\", \"nom\": \"Dubois\", \"prenom\": \"Marie\", \"role\": \"Maitre C\", \"code_module\": \"PS\", \"nom_module\": \"PS\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 2, \"code_groupe\": \"G4\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 3 } }, { \"debut\": \"13:00\", \"fin\": \"14:30\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 13, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"AIE\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"AIE\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"17\", \"nom\": \"Roy\", \"prenom\": \"Sophie\", \"role\": \"maitre Z\", \"code_module\": \"AIE\", \"nom_module\": \"AIE\", \"priorite\": 2 }, \"groupe\": { \"id_groupe\": 2, \"code_groupe\": \"G4\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 3 } }, { \"debut\": \"16:20\", \"fin\": \"17:50\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 12, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"AIE\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"AIE\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s120\", \"capacite\": 40, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"13\", \"nom\": \"Martinez\", \"prenom\": \"Antonio\", \"role\": \"maitre A\", \"code_module\": \"AIE\", \"nom_module\": \"AIE\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 2, \"code_groupe\": \"G4\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 3 } }, { \"debut\": \"09:40\", \"fin\": \"11:10\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 19, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Req-Con\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Req-Con\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"22\", \"nom\": \"Smith\", \"prenom\": \"Jane\", \"role\": \"vacataire\", \"code_module\": \"Req-Con\", \"nom_module\": \"Req-Con\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 2, \"code_groupe\": \"G4\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 3 } }, { \"debut\": \"11:20\", \"fin\": \"12:50\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 14, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"TOP\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"TOP\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"19\", \"nom\": \"Fernandez\", \"prenom\": \"Laura\", \"role\": \"maitre F\", \"code_module\": \"TOP\", \"nom_module\": \"TOP\", \"priorite\": 2 }, \"groupe\": { \"id_groupe\": 2, \"code_groupe\": \"G4\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 3 } }, { \"debut\": \"14:40\", \"fin\": \"16:10\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 22, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Anglais\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Anglais\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s120\", \"capacite\": 40, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"19\", \"nom\": \"Fernandez\", \"prenom\": \"Laura\", \"role\": \"maitre F\", \"code_module\": \"Anglais\", \"nom_module\": \"Anglais\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 2, \"code_groupe\": \"G4\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 3 } }, { \"debut\": \"16:20\", \"fin\": \"17:50\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 10, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"PS\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"PS\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s112\", \"capacite\": 60, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"6\", \"nom\": \"Dubois\", \"prenom\": \"Marie\", \"role\": \"Maitre C\", \"code_module\": \"PS\", \"nom_module\": \"PS\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 2, \"code_groupe\": \"G4\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 3 } }, { \"debut\": \"11:20\", \"fin\": \"12:50\", \"jour\": \"Mardi\", \"seance\": { \"id_seance\": 17, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"MC\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"MC\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s120\", \"capacite\": 40, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"13\", \"nom\": \"Martinez\", \"prenom\": \"Antonio\", \"role\": \"maitre A\", \"code_module\": \"MC\", \"nom_module\": \"MC\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 2, \"code_groupe\": \"G4\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 3 } }, { \"debut\": \"13:00\", \"fin\": \"14:30\", \"jour\": \"Mardi\", \"seance\": { \"id_seance\": 18, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"MC\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"MC\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"8\", \"nom\": \"Chen\", \"prenom\": \"Ling\", \"role\": \"Maitre D\", \"code_module\": \"MC\", \"nom_module\": \"MC\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 2, \"code_groupe\": \"G4\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 3 } }, { \"debut\": \"16:20\", \"fin\": \"17:50\", \"jour\": \"Mardi\", \"seance\": { \"id_seance\": 20, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Req-Con\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Req-Con\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s120\", \"capacite\": 40, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"22\", \"nom\": \"Smith\", \"prenom\": \"Jane\", \"role\": \"vacataire\", \"code_module\": \"Req-Con\", \"nom_module\": \"Req-Con\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 2, \"code_groupe\": \"G4\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 3 } }, { \"debut\": \"13:00\", \"fin\": \"14:30\", \"jour\": \"Mercredi\", \"seance\": { \"id_seance\": 11, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"PS\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"PS\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"6\", \"nom\": \"Dubois\", \"prenom\": \"Marie\", \"role\": \"Maitre C\", \"code_module\": \"PS\", \"nom_module\": \"PS\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 2, \"code_groupe\": \"G4\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 3 } }, { \"debut\": \"14:40\", \"fin\": \"16:10\", \"jour\": \"Mercredi\", \"seance\": { \"id_seance\": 15, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"TOP\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"TOP\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s120\", \"capacite\": 40, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"19\", \"nom\": \"Fernandez\", \"prenom\": \"Laura\", \"role\": \"maitre F\", \"code_module\": \"TOP\", \"nom_module\": \"TOP\", \"priorite\": 2 }, \"groupe\": { \"id_groupe\": 2, \"code_groupe\": \"G4\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 3 } }, { \"debut\": \"09:40\", \"fin\": \"11:10\", \"jour\": \"Jeudi\", \"seance\": { \"id_seance\": 21, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Req-Con\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Req-Con\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"22\", \"nom\": \"Smith\", \"prenom\": \"Jane\", \"role\": \"vacataire\", \"code_module\": \"Req-Con\", \"nom_module\": \"Req-Con\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 2, \"code_groupe\": \"G4\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 3 } } ], \"G1\": [ { \"debut\": \"09:40\", \"fin\": \"11:10\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 16, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"MC\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"MC\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"13\", \"nom\": \"Martinez\", \"prenom\": \"Antonio\", \"role\": \"maitre A\", \"code_module\": \"MC\", \"nom_module\": \"MC\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 3, \"code_groupe\": \"G1\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"11:20\", \"fin\": \"12:50\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 9, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"PS\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"PS\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"6\", \"nom\": \"Dubois\", \"prenom\": \"Marie\", \"role\": \"Maitre C\", \"code_module\": \"PS\", \"nom_module\": \"PS\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 3, \"code_groupe\": \"G1\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"13:00\", \"fin\": \"14:30\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 22, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Anglais\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Anglais\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s112\", \"capacite\": 60, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"19\", \"nom\": \"Fernandez\", \"prenom\": \"Laura\", \"role\": \"maitre F\", \"code_module\": \"Anglais\", \"nom_module\": \"Anglais\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 3, \"code_groupe\": \"G1\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"09:40\", \"fin\": \"11:10\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 19, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Req-Con\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Req-Con\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"22\", \"nom\": \"Smith\", \"prenom\": \"Jane\", \"role\": \"vacataire\", \"code_module\": \"Req-Con\", \"nom_module\": \"Req-Con\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 3, \"code_groupe\": \"G1\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"11:20\", \"fin\": \"12:50\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 14, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"TOP\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"TOP\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"19\", \"nom\": \"Fernandez\", \"prenom\": \"Laura\", \"role\": \"maitre F\", \"code_module\": \"TOP\", \"nom_module\": \"TOP\", \"priorite\": 2 }, \"groupe\": { \"id_groupe\": 3, \"code_groupe\": \"G1\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"13:00\", \"fin\": \"14:30\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 12, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"AIE\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"AIE\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s112\", \"capacite\": 60, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"13\", \"nom\": \"Martinez\", \"prenom\": \"Antonio\", \"role\": \"maitre A\", \"code_module\": \"AIE\", \"nom_module\": \"AIE\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 3, \"code_groupe\": \"G1\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"16:20\", \"fin\": \"17:50\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 13, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"AIE\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"AIE\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"13\", \"nom\": \"Martinez\", \"prenom\": \"Antonio\", \"role\": \"maitre A\", \"code_module\": \"AIE\", \"nom_module\": \"AIE\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 3, \"code_groupe\": \"G1\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"09:40\", \"fin\": \"11:10\", \"jour\": \"Mardi\", \"seance\": { \"id_seance\": 10, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"PS\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"PS\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s120\", \"capacite\": 40, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"6\", \"nom\": \"Dubois\", \"prenom\": \"Marie\", \"role\": \"Maitre C\", \"code_module\": \"PS\", \"nom_module\": \"PS\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 3, \"code_groupe\": \"G1\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"11:20\", \"fin\": \"12:50\", \"jour\": \"Mardi\", \"seance\": { \"id_seance\": 18, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"MC\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"MC\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"8\", \"nom\": \"Chen\", \"prenom\": \"Ling\", \"role\": \"Maitre D\", \"code_module\": \"MC\", \"nom_module\": \"MC\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 3, \"code_groupe\": \"G1\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"13:00\", \"fin\": \"14:30\", \"jour\": \"Mardi\", \"seance\": { \"id_seance\": 17, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"MC\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"MC\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s112\", \"capacite\": 60, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"13\", \"nom\": \"Martinez\", \"prenom\": \"Antonio\", \"role\": \"maitre A\", \"code_module\": \"MC\", \"nom_module\": \"MC\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 3, \"code_groupe\": \"G1\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"09:40\", \"fin\": \"11:10\", \"jour\": \"Mercredi\", \"seance\": { \"id_seance\": 20, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Req-Con\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Req-Con\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s112\", \"capacite\": 60, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"22\", \"nom\": \"Smith\", \"prenom\": \"Jane\", \"role\": \"vacataire\", \"code_module\": \"Req-Con\", \"nom_module\": \"Req-Con\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 3, \"code_groupe\": \"G1\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"13:00\", \"fin\": \"14:30\", \"jour\": \"Mercredi\", \"seance\": { \"id_seance\": 15, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"TOP\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"TOP\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s120\", \"capacite\": 40, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"19\", \"nom\": \"Fernandez\", \"prenom\": \"Laura\", \"role\": \"maitre F\", \"code_module\": \"TOP\", \"nom_module\": \"TOP\", \"priorite\": 2 }, \"groupe\": { \"id_groupe\": 3, \"code_groupe\": \"G1\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"14:40\", \"fin\": \"16:10\", \"jour\": \"Mercredi\", \"seance\": { \"id_seance\": 11, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"PS\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"PS\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"6\", \"nom\": \"Dubois\", \"prenom\": \"Marie\", \"role\": \"Maitre C\", \"code_module\": \"PS\", \"nom_module\": \"PS\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 3, \"code_groupe\": \"G1\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"11:20\", \"fin\": \"12:50\", \"jour\": \"Jeudi\", \"seance\": { \"id_seance\": 21, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Req-Con\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Req-Con\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"22\", \"nom\": \"Smith\", \"prenom\": \"Jane\", \"role\": \"vacataire\", \"code_module\": \"Req-Con\", \"nom_module\": \"Req-Con\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 3, \"code_groupe\": \"G1\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } } ], \"G2\": [ { \"debut\": \"09:40\", \"fin\": \"11:10\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 16, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"MC\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"MC\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"13\", \"nom\": \"Martinez\", \"prenom\": \"Antonio\", \"role\": \"maitre A\", \"code_module\": \"MC\", \"nom_module\": \"MC\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 4, \"code_groupe\": \"G2\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"11:20\", \"fin\": \"12:50\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 9, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"PS\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"PS\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"6\", \"nom\": \"Dubois\", \"prenom\": \"Marie\", \"role\": \"Maitre C\", \"code_module\": \"PS\", \"nom_module\": \"PS\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 4, \"code_groupe\": \"G2\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"14:40\", \"fin\": \"16:10\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 12, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"AIE\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"AIE\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s112\", \"capacite\": 60, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"13\", \"nom\": \"Martinez\", \"prenom\": \"Antonio\", \"role\": \"maitre A\", \"code_module\": \"AIE\", \"nom_module\": \"AIE\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 4, \"code_groupe\": \"G2\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"16:20\", \"fin\": \"17:50\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 22, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Anglais\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Anglais\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s112\", \"capacite\": 60, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"19\", \"nom\": \"Fernandez\", \"prenom\": \"Laura\", \"role\": \"maitre F\", \"code_module\": \"Anglais\", \"nom_module\": \"Anglais\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 4, \"code_groupe\": \"G2\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"09:40\", \"fin\": \"11:10\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 19, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Req-Con\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Req-Con\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"22\", \"nom\": \"Smith\", \"prenom\": \"Jane\", \"role\": \"vacataire\", \"code_module\": \"Req-Con\", \"nom_module\": \"Req-Con\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 4, \"code_groupe\": \"G2\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"11:20\", \"fin\": \"12:50\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 14, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"TOP\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"TOP\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"19\", \"nom\": \"Fernandez\", \"prenom\": \"Laura\", \"role\": \"maitre F\", \"code_module\": \"TOP\", \"nom_module\": \"TOP\", \"priorite\": 2 }, \"groupe\": { \"id_groupe\": 4, \"code_groupe\": \"G2\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"13:00\", \"fin\": \"14:30\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 13, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"AIE\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"AIE\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"17\", \"nom\": \"Roy\", \"prenom\": \"Sophie\", \"role\": \"maitre Z\", \"code_module\": \"AIE\", \"nom_module\": \"AIE\", \"priorite\": 2 }, \"groupe\": { \"id_groupe\": 4, \"code_groupe\": \"G2\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"13:00\", \"fin\": \"14:30\", \"jour\": \"Mardi\", \"seance\": { \"id_seance\": 10, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"PS\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"PS\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s120\", \"capacite\": 40, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"6\", \"nom\": \"Dubois\", \"prenom\": \"Marie\", \"role\": \"Maitre C\", \"code_module\": \"PS\", \"nom_module\": \"PS\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 4, \"code_groupe\": \"G2\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"14:40\", \"fin\": \"16:10\", \"jour\": \"Mardi\", \"seance\": { \"id_seance\": 17, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"MC\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"MC\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s112\", \"capacite\": 60, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"13\", \"nom\": \"Martinez\", \"prenom\": \"Antonio\", \"role\": \"maitre A\", \"code_module\": \"MC\", \"nom_module\": \"MC\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 4, \"code_groupe\": \"G2\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"09:40\", \"fin\": \"11:10\", \"jour\": \"Mercredi\", \"seance\": { \"id_seance\": 18, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"MC\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"MC\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"13\", \"nom\": \"Martinez\", \"prenom\": \"Antonio\", \"role\": \"maitre A\", \"code_module\": \"MC\", \"nom_module\": \"MC\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 4, \"code_groupe\": \"G2\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"11:20\", \"fin\": \"12:50\", \"jour\": \"Mercredi\", \"seance\": { \"id_seance\": 20, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Req-Con\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Req-Con\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s120\", \"capacite\": 40, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"22\", \"nom\": \"Smith\", \"prenom\": \"Jane\", \"role\": \"vacataire\", \"code_module\": \"Req-Con\", \"nom_module\": \"Req-Con\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 4, \"code_groupe\": \"G2\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"16:20\", \"fin\": \"17:50\", \"jour\": \"Mercredi\", \"seance\": { \"id_seance\": 11, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"PS\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"PS\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"6\", \"nom\": \"Dubois\", \"prenom\": \"Marie\", \"role\": \"Maitre C\", \"code_module\": \"PS\", \"nom_module\": \"PS\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 4, \"code_groupe\": \"G2\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"08:00\", \"fin\": \"09:30\", \"jour\": \"Jeudi\", \"seance\": { \"id_seance\": 15, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"TOP\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"TOP\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s112\", \"capacite\": 60, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"19\", \"nom\": \"Fernandez\", \"prenom\": \"Laura\", \"role\": \"maitre F\", \"code_module\": \"TOP\", \"nom_module\": \"TOP\", \"priorite\": 2 }, \"groupe\": { \"id_groupe\": 4, \"code_groupe\": \"G2\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"13:00\", \"fin\": \"14:30\", \"jour\": \"Jeudi\", \"seance\": { \"id_seance\": 21, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Req-Con\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Req-Con\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"22\", \"nom\": \"Smith\", \"prenom\": \"Jane\", \"role\": \"vacataire\", \"code_module\": \"Req-Con\", \"nom_module\": \"Req-Con\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 4, \"code_groupe\": \"G2\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } } ], \"G3\": [ { \"debut\": \"09:40\", \"fin\": \"11:10\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 16, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"MC\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"MC\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"13\", \"nom\": \"Martinez\", \"prenom\": \"Antonio\", \"role\": \"maitre A\", \"code_module\": \"MC\", \"nom_module\": \"MC\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 5, \"code_groupe\": \"G3\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"11:20\", \"fin\": \"12:50\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 9, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"PS\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"PS\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"6\", \"nom\": \"Dubois\", \"prenom\": \"Marie\", \"role\": \"Maitre C\", \"code_module\": \"PS\", \"nom_module\": \"PS\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 5, \"code_groupe\": \"G3\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"14:40\", \"fin\": \"16:10\", \"jour\": \"Dimanche\", \"seance\": { \"id_seance\": 13, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"AIE\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"AIE\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"17\", \"nom\": \"Roy\", \"prenom\": \"Sophie\", \"role\": \"maitre Z\", \"code_module\": \"AIE\", \"nom_module\": \"AIE\", \"priorite\": 2 }, \"groupe\": { \"id_groupe\": 5, \"code_groupe\": \"G3\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"09:40\", \"fin\": \"11:10\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 19, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Req-Con\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Req-Con\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"22\", \"nom\": \"Smith\", \"prenom\": \"Jane\", \"role\": \"vacataire\", \"code_module\": \"Req-Con\", \"nom_module\": \"Req-Con\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 5, \"code_groupe\": \"G3\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"11:20\", \"fin\": \"12:50\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 14, \"type\": \"Cours\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"TOP\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"TOP\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"Amphi16\", \"capacite\": 200, \"type\": \"Amphi\" }, \"enseignant\": { \"matricule\": \"19\", \"nom\": \"Fernandez\", \"prenom\": \"Laura\", \"role\": \"maitre F\", \"code_module\": \"TOP\", \"nom_module\": \"TOP\", \"priorite\": 2 }, \"groupe\": { \"id_groupe\": 5, \"code_groupe\": \"G3\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"14:40\", \"fin\": \"16:10\", \"jour\": \"Lundi\", \"seance\": { \"id_seance\": 12, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"AIE\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"AIE\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s112\", \"capacite\": 60, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"13\", \"nom\": \"Martinez\", \"prenom\": \"Antonio\", \"role\": \"maitre A\", \"code_module\": \"AIE\", \"nom_module\": \"AIE\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 5, \"code_groupe\": \"G3\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"09:40\", \"fin\": \"11:10\", \"jour\": \"Mardi\", \"seance\": { \"id_seance\": 22, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Anglais\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Anglais\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s112\", \"capacite\": 60, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"19\", \"nom\": \"Fernandez\", \"prenom\": \"Laura\", \"role\": \"maitre F\", \"code_module\": \"Anglais\", \"nom_module\": \"Anglais\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 5, \"code_groupe\": \"G3\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"14:40\", \"fin\": \"16:10\", \"jour\": \"Mardi\", \"seance\": { \"id_seance\": 18, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"MC\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"MC\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"8\", \"nom\": \"Chen\", \"prenom\": \"Ling\", \"role\": \"Maitre D\", \"code_module\": \"MC\", \"nom_module\": \"MC\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 5, \"code_groupe\": \"G3\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"16:20\", \"fin\": \"17:50\", \"jour\": \"Mardi\", \"seance\": { \"id_seance\": 17, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"MC\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"MC\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s112\", \"capacite\": 60, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"13\", \"nom\": \"Martinez\", \"prenom\": \"Antonio\", \"role\": \"maitre A\", \"code_module\": \"MC\", \"nom_module\": \"MC\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 5, \"code_groupe\": \"G3\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"11:20\", \"fin\": \"12:50\", \"jour\": \"Mercredi\", \"seance\": { \"id_seance\": 10, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"PS\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"PS\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s112\", \"capacite\": 60, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"6\", \"nom\": \"Dubois\", \"prenom\": \"Marie\", \"role\": \"Maitre C\", \"code_module\": \"PS\", \"nom_module\": \"PS\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 5, \"code_groupe\": \"G3\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"13:00\", \"fin\": \"14:30\", \"jour\": \"Mercredi\", \"seance\": { \"id_seance\": 20, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Req-Con\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Req-Con\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s112\", \"capacite\": 60, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"22\", \"nom\": \"Smith\", \"prenom\": \"Jane\", \"role\": \"vacataire\", \"code_module\": \"Req-Con\", \"nom_module\": \"Req-Con\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 5, \"code_groupe\": \"G3\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"16:20\", \"fin\": \"17:50\", \"jour\": \"Mercredi\", \"seance\": { \"id_seance\": 15, \"type\": \"TD\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"TOP\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"TOP\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b5s112\", \"capacite\": 60, \"type\": \"SalleTD\" }, \"enseignant\": { \"matricule\": \"19\", \"nom\": \"Fernandez\", \"prenom\": \"Laura\", \"role\": \"maitre F\", \"code_module\": \"TOP\", \"nom_module\": \"TOP\", \"priorite\": 2 }, \"groupe\": { \"id_groupe\": 5, \"code_groupe\": \"G3\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"08:00\", \"fin\": \"09:30\", \"jour\": \"Jeudi\", \"seance\": { \"id_seance\": 11, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"PS\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"PS\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"6\", \"nom\": \"Dubois\", \"prenom\": \"Marie\", \"role\": \"Maitre C\", \"code_module\": \"PS\", \"nom_module\": \"PS\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 5, \"code_groupe\": \"G3\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } }, { \"debut\": \"14:40\", \"fin\": \"16:10\", \"jour\": \"Jeudi\", \"seance\": { \"id_seance\": 21, \"type\": \"TP\", \"niveau\": \"M1\", \"semestre\": \"S2\", \"nom_module\": \"Req-Con\", \"nom_specialite\": \"genie logiciel\", \"code_module\": \"Req-Con\", \"code_specialite\": \"GL\" }, \"local\": { \"code_local\": \"b1s1\", \"capacite\": 30, \"type\": \"SalleTP\" }, \"enseignant\": { \"matricule\": \"22\", \"nom\": \"Smith\", \"prenom\": \"Jane\", \"role\": \"vacataire\", \"code_module\": \"Req-Con\", \"nom_module\": \"Req-Con\", \"priorite\": 1 }, \"groupe\": { \"id_groupe\": 5, \"code_groupe\": \"G3\", \"id_section\": 1, \"code_section\": \"A\", \"niveau\": \"M1\", \"code_specialite\": \"GL\", \"nom_specialite\": \"genie logiciel\", \"nbr_etudiants\": 0 } } ] }"
+                    }
+                ]
+            }
+        }
+    ],
+    "ref": "-sSzbO110gHBoQuagC2LDFMggwHs9xpRs4P1z7DIW7KJF21vIDn3njfeT5bWeqWuFm3UN4WaCfKTmBmTD-IQig"
+}

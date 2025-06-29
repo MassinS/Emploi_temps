@@ -1,0 +1,21 @@
+.enseignant{
+    font-size: 13px;
+   
+}
+.enstr{
+    height: 64px!important;
+}
+.enseignant td{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    
+}
+.emploi{
+    border: 1px solid #9a9494;
+    height: 400px;
+    border-radius: 15px;
+}
+.img{
+    border: 1px solid #9a9494;
+    border-radius: 15px;
+}

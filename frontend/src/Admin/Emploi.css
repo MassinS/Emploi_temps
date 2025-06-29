@@ -1,0 +1,100 @@
+.main {
+    width: calc(100% - 224px);
+    margin-left: 224px;
+    height: 100vh;
+}
+.drop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    border: 1px solid #D8DDE2;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.icone{
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(95, 179, 252);
+    padding: 4px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.rotate {
+    transform: rotate(-180deg);
+    transition: transform 0.3s ease-in-out; 
+}
+.list{
+    position: absolute;
+    border: 1px solid #D8DDE2;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: auto;
+    transition: all 0.3s;
+}
+.list::-webkit-scrollbar {
+    width: 6px; /* Largeur de la barre de défilement */
+  }
+  
+  .list::-webkit-scrollbar-track {
+    background: transparent; /* Couleur de fond de la piste de défilement */
+  }
+  
+  .list::-webkit-scrollbar-thumb {
+    background: #888; /* Couleur de la poignée de défilement */
+    border-radius: 5px; /* Bordure arrondie de la poignée */
+  }
+.list li:hover{
+    background: linear-gradient(to right,rgba(0,139,245,0.2), rgba(5,163,255,0.05));
+    transition: all 0.3s;
+    
+}
+.list li{
+    padding: 12px;
+}
+.aks td{
+    height: 72px;
+}
+.aks{
+    border: 1px solid #D8DDE2;
+    font-size: 15px;
+}
+.head{
+    background-color: #EEF1F8;
+}
+.head td{
+    color: black;
+    font-weight:600 ;
+}
+.aks tr td{
+    padding-left: 16px;
+}
+.aks tr:not(:first-child):hover{
+    background-color: #094BC1;
+    transform: scale(1.03);
+    transition: all 0.3s;
+    color: white;
+    border-radius: 30px;
+    
+}
+.aks tr:hover :first-child{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.aks tr:hover :last-child{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.aks tr:hover .hv{
+   color: white;
+}
+
+.aks tr{
+    transition: all 0.3s;
+}

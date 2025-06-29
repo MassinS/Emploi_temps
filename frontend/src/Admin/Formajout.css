@@ -1,0 +1,114 @@
+.form {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    width: 600px;
+    height: fit-content;
+    padding: 40px 40px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    
+    
+}
+.form div:not(.down) {
+    margin-bottom: 32px;
+    
+}
+.form input {
+    outline: none;
+    border-bottom: 1px solid gray;
+    padding: 8px;
+    padding-left: 0px;
+}
+.form select{
+    padding: 8px;
+}
+.form select:nth-child(1){
+    color: #999;
+    padding-left: 0px;
+}
+.form button{
+    border-radius: 30px;
+}
+.close{
+    height: 32px;
+    width: 32px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -12px;
+    right: -28px;
+    border-radius: 50%;
+}
+.close:first-child{
+    font-size: 16px;
+}
+.close:first-child:hover{
+    color: white;
+    cursor: pointer;
+}
+.type{
+    padding: 20px;
+}
+
+.droplist{
+    position: absolute;
+    border: 1px solid #999 ;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px;
+    overflow: auto;
+    
+}
+.droplist::-webkit-scrollbar {
+    width: 6px; /* Largeur de la barre de défilement */
+  }
+  
+  .droplist::-webkit-scrollbar-track {
+    background: transparent; /* Couleur de fond de la piste de défilement */
+  }
+  
+  .droplist::-webkit-scrollbar-thumb {
+    background: #888; /* Couleur de la poignée de défilement */
+    border-radius: 5px; /* Bordure arrondie de la poignée */
+  }
+.droplist li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 10px;
+    
+}
+.mn:hover{
+    cursor: pointer;
+}
+.droplist li:hover{
+background-color: #e7edfe;
+}
+.droplist label{
+    font-size: 16px;
+}
+.checkbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16px;
+    width: 16px;
+    border-radius: 4px;
+    border: 1.5px solid #c0c0c0;
+    margin-right: 12px;
+}
+.icon{
+    color: white;
+    font-size: 12px;
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
